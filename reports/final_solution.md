@@ -25,6 +25,10 @@ To gain deeper insights into the model's decision-making process and ensure it w
 
 ## Usage
 
+
+### Download Model
+Due to the fact that model is Large I submitted it onto [GDrive](https://drive.google.com/drive/folders/19ddhxuJn__g0-VwsOF8p_aQ09zShzGIo?usp=sharing) as well as initial raw data .tsv
+
 ### Training the Model
 
 To train the model using your dataset, use the `train_model.py` script. Pass the path to your input CSV and the output directory where the model should be saved.
