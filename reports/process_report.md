@@ -19,6 +19,8 @@ This involved filtering out pairs with minimal toxicity difference and ensuring 
 Building on the first two hypotheses, I posited that fine-tuning the pre-trained T5 model specifically on the paraphrase task would lead to a model that could not only detect toxicity but also generate non-toxic paraphrases. This required setting up a custom training loop with a carefully chosen loss function that would encourage the model to minimize toxicity while maintaining semantic similarity.
 
 ## Results
-After implementing the above hypotheses, I evaluated the model's performance. The results indicated a substantial improvement over the baseline model. The T5 model, once fine-tuned on the paraphrasing task with the preprocessed data, was able to generate non-toxic paraphrases that retained the meaning of the original sentences with a high degree of fidelity. This was evidenced by improved scores on both toxicity reduction and semantic similarity metrics, confirming my initial hypotheses.
+After implementing the above hypotheses, I evaluated the model's performance. The results indicated a substantial improvement over the text toxicity level. 
+The T5 model, once fine-tuned on the paraphrasing task with the preprocessed data, was able to generate non-toxic paraphrases that retained the meaning of the original sentences 
+with a high degree of fidelity. This was evident by testing it on many samples. More over as visualization shows model learned to pay less attention to toxic tokens, confirming my initial hypotheses.
 
 In conclusion, the combination of a powerful pre-trained model like T5, meticulous data preprocessing, and task-specific fine-tuning proved to be a successful approach to text detoxification. Moving forward, I plan to explore additional refinements in data preprocessing and model training to further enhance the quality of the paraphrases generated.
