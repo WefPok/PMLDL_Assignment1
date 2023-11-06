@@ -55,11 +55,6 @@ This will generate a heatmap of the cross-attention weights for the specified la
 
 ---
 
-By following the above steps, you should be able to train, predict, and visualize attention weights for your text detoxification model.
-```
-
-This README provides a brief introduction and instructions for using the provided scripts, assuming that the scripts are named `train_model.py`, `predict.py`, and `visualize.py` respectively. Adjust the file names and paths according to your actual setup.
-
 ## Outcome:
 The T5 model, once fine-tuned with the strategies outlined above, demonstrated a notable enhancement in performance compared to the baseline approach. The key outcomes were:
 
