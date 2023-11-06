@@ -1,3 +1,4 @@
 /venv/
 /detox_transformer-20231106T161057Z-001.zip
 models/model/pytorch_model.bin
+/data/raw/filtered.tsv
